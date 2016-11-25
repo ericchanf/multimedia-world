@@ -1,4 +1,75 @@
-html
-{
-  background: rgb(245,245,245);
+html {
+  height: 100%;
+}
+
+body {
+  padding-top: 75px;
+  height: 100%;
+  background-color: rgb(255,255,255);
+  background: url("../src/img/wallpaper.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn {
+  border-radius: 0px;
+  color: rgb(120,120,120);
+  text-transform: uppercase;
+}
+
+/* ===== Navbar ===== */
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-header img {
+  display: inline-block;
+  width: 300px;
+  margin : 10px;
+}
+
+nav ul {
+  position: relative;
+  top: 25px;
+  left : 50px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color : rgb(120,120,120);
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color : #e94936;
+}
+
+/* Search bar */
+#search-bar {
+  position: relative;
+  top: 24px;
+}
+
+/* ===== Main ===== */
+main {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+main .btn {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+main .btn:hover {
+  background-color: rgba(233, 73, 55, 0.8);
+  color: white;
+}
+
+/* ===== Footer ===== */
+footer {
+  position: absolute;
+  bottom: 0px;
 }
