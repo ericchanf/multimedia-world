@@ -2,10 +2,13 @@ html {
   height: 100%;
 }
 
-body {
+body{
   padding-top: 75px;
   height: 100%;
-  background-color: rgb(255,255,255);
+  background-color: rgb(245,245,245);
+}
+
+body[id="homepage"] {
   background: url("../src/img/wallpaper.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -58,14 +61,31 @@ main {
   text-align: center;
 }
 
-main .btn {
+main #homepageButton {
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
 }
 
-main .btn:hover {
+main #homepageButton:hover {
   background-color: rgba(233, 73, 55, 0.8);
   color: white;
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:hover{
+  color: black;
+}
+
+#musique .row
+{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#musique .row img{
+  margin: 5px;
 }
 
 /* ===== Footer ===== */
